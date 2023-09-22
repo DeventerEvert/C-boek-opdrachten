@@ -1,0 +1,55 @@
+﻿<Window x:Class="EurosAndCents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EurosAndCents"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Button Content="Converteren"
+                Name="convertBtn"
+                Click="convertBtn_Click"
+                HorizontalAlignment="Left"
+                Margin="27,165,0,0"
+                VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left"
+                 Margin="126,139,0,0"
+                 TextWrapping="Wrap"
+                 Text=""
+                 Name="inputBox"
+                 VerticalAlignment="Top"
+                 Width="120" />
+        <Label Content="Bedrag in centen:"
+               HorizontalAlignment="Left"
+               Margin="21,139,0,0"
+               VerticalAlignment="Top" />
+        <Label Content="Euros:"
+               HorizontalAlignment="Center"
+               Margin="0,139,0,0"
+               VerticalAlignment="Top" />
+        <Label Content="Cents:"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,170,0,0" />
+        <Label Content=""
+               Name="euroShow"
+               HorizontalAlignment="Left"
+               Margin="458,139,0,0"
+               VerticalAlignment="Top" />
+        <Label Content=""
+               Name="centShow"
+               HorizontalAlignment="Left"
+               Margin="458,170,0,0"
+               VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="385,0,0,0"
+                   Name="fullResult"
+                   TextWrapping="Wrap"
+                   Text=""
+                   VerticalAlignment="Center" />
+
+    </Grid>
+</Window>

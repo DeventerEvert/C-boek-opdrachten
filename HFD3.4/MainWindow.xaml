@@ -1,0 +1,82 @@
+﻿<Window x:Class="HFD3._4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HFD3._4"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="200"
+        Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"
+              Grid.Column="1">
+            <Rectangle Fill="Green"/>
+            <TextBlock Text="150cm"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="0"
+              Grid.Column="0">
+            <Rectangle Fill="Purple" />
+            <TextBlock Text="2009"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="1"
+              Grid.Column="1">
+            <Rectangle Fill="Red" />
+            <TextBlock Text="175cm"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="1"
+              Grid.Column="0">
+            <Rectangle Fill="Teal" />
+            <TextBlock Text="2010"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="2"
+              Grid.Column="0">
+            <Rectangle Fill="Yellow" />
+            <TextBlock Text="2011"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="3"
+              Grid.Column="0">
+            <Rectangle Fill="Beige" />
+            <TextBlock Text="2012"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="3"
+              Grid.Column="1">
+            <Rectangle Fill="Cyan" />
+            <TextBlock Text="130cm"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="2"
+              Grid.Column="1">
+            <Rectangle Fill="LawnGreen" />
+            <TextBlock Text="120cm"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Grid>
+
+
+    </Grid>
+</Window>

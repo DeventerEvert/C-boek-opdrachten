@@ -1,0 +1,40 @@
+﻿<Window x:Class="HFD3._6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HFD3._6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas 
+            Name="paperCanvas"
+            Height="300"
+            Width="300"
+            Background="Gray"/>
+       
+        <Ellipse Width="20"
+                 Height="10"
+                 Fill="White"
+                 Margin="421,175,359,249" />
+        <Ellipse Width="20"
+                 Height="10"
+                 Fill="White"
+                 Margin="352,175,428,249" />
+        <Ellipse Width="10"
+                 Height="5"
+                 Fill="Black"
+                 Margin="352,175,428,249" />
+        <Ellipse Width="10"
+                 Height="5"
+                 Fill="Black"
+                 Margin="426,178,364,251" />
+        <Button Content="createFace"
+                Name="createButton"
+                Click="createButton_Click"
+                HorizontalAlignment="Left"
+                Margin="59,101,0,0"
+                VerticalAlignment="Top" />
+
+    </Grid>
+</Window>

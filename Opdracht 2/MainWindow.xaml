@@ -1,0 +1,35 @@
+﻿<Window x:Class="Opdracht_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opdracht_2"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="479*" />
+            <ColumnDefinition Width="321*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="resultLabel"
+               Content="resultLabel"
+               HorizontalAlignment="Left"
+               Margin="171,184,0,0"
+               VerticalAlignment="Top" />
+        <Label x:Name="nameLabel"
+               Content="nameLabel"
+               HorizontalAlignment="Left"
+               Margin="268,184,0,0"
+               VerticalAlignment="Top" />
+        <Button x:Name="testButton"
+                Content="Click Me"
+                HorizontalAlignment="Left"
+                Margin="380,0,0,0"
+                VerticalAlignment="Center"
+                Click="testButton_Click"
+                 />
+
+    </Grid>
+</Window>
